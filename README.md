@@ -16,6 +16,9 @@ Usage
 --------
 - Read `pokemon.csv` into your environment
 - Familiarize yourself with the below data dictionary
+- Follow the steps to read in data, perform basic cleaning and exploratory analysis in either script
+- If interested in focusing on feature transformations and classifictation using support vector machines (SVM), follow `Pokemon_SVM.py`
+- If interested in delaying converting the Type features to categorical to perform different types of data visualization and exploring deep learning further, follow `Pokemon_NN.py`
 
 
 Data Dictionary
@@ -38,4 +41,9 @@ The data source contains 800 observations of 13 variables, including the index c
 
 Extension Options 
 -----------------
-- This project is a rather simplistic design
+This project is a rather simplistic design, designed for early AI learners with limited coding or theoretical background in data science. For more experienced developers or newer coders looking to expand their skillset, the following could provide useful expansions on the existing code:
+- Rather than keeping the scrips separate, with the amount of overlapping steps the two could be integrated into a unified script
+- Since the test set has correct labels, the deep learning code could also include the ROC/truth table post hoc analysis
+- Regression-based problems could be applied to the Pokémon stats, for example predicting HP
+- Use of different classification algorithms for the Legendary prediction, for example logistic regression or naïve bayes
+- The existing steps of the data science pipeline could be expanded on, either by conducting more feature engineering to extract more insights or augmenting to include new Pokémon data like height, weight, rarity, etc.
